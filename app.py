@@ -404,43 +404,50 @@ if st.session_state.analysis_done and st.session_state.ranked_candidates:
 
             st.markdown(f"**💬 Summary:** {candidate.get('overall_summary', 'N/A')}")
 
-            # ── Human-in-the-loop Override ────────────────────────────────────
+                        # ── Human-in-the-loop Override ────────────────────────────────────
             st.markdown("---")
             st.markdown("**🧑‍⚖️ Human Override** *(optional — adjust AI scores)*")
 
             if candidate.get("manually_overridden"):
+
                 log = candidate["override_log"][-1]
+
                 st.warning(
                     f"⚠️ Override applied on {log['timestamp'][:10]}: {log['reason']}"
                 )
 
-           with st.form(
-    key=f"override_form_{candidate.get('rank')}_{candidate.get('filename', name)}"
-):
-    ov_cols = st.columns(5)
-    overrides = {}
-    dim_keys = [d[0] for d in dim_names]
+            with st.form(
+                key=f"override_form_{candidate.get('rank')}_{candidate.get('filename', name)}"
+            ):
 
-    for idx, (col, dim) in enumerate(zip(ov_cols, dim_keys)):
-        current = scores.get(dim, 0)
-        short = dim.replace("_", " ").title().split(" ")[0]
+                ov_cols = st.columns(5)
 
-        unique_key = (
-            f"{dim}_{candidate.get('rank')}_"
-            f"{candidate.get('filename', name)}_{idx}"
-        )
+                overrides = {}
 
-        new_val = col.number_input(
-            short,
-            min_value=0,
-            max_value=10,
-            value=current,
-            step=1,
-            key=unique_key,
-        )
+                dim_keys = [d[0] for d in dim_names]
 
-        if new_val != current:
-            overrides[dim] = new_val
+                for idx, (col, dim) in enumerate(zip(ov_cols, dim_keys)):
+
+                    current = scores.get(dim, 0)
+
+                    short = dim.replace("_", " ").title().split(" ")[0]
+
+                    unique_key = (
+                        f"{dim}_{candidate.get('rank')}_"
+                        f"{candidate.get('filename', name)}_{idx}"
+                    )
+
+                    new_val = col.number_input(
+                        short,
+                        min_value=0,
+                        max_value=10,
+                        value=current,
+                        step=1,
+                        key=unique_key,
+                    )
+
+                    if new_val != current:
+                        overrides[dim] = new_val
 
                 override_reason = st.text_input(
                     "Reason for override (required if changing scores):",
@@ -448,21 +455,31 @@ if st.session_state.analysis_done and st.session_state.ranked_candidates:
                 )
 
                 submitted = st.form_submit_button("💾 Apply Override")
+
                 if submitted and overrides:
+
                     if not override_reason.strip():
+
                         st.error("Please provide a reason for the override.")
+
                     else:
-                        # Find and update this candidate in session state
+
                         for i, c in enumerate(st.session_state.ranked_candidates):
+
                             if c.get("filename") == candidate.get("filename"):
+
                                 st.session_state.ranked_candidates[i] = apply_override(
-                                    c, overrides, override_reason
+                                    c,
+                                    overrides,
+                                    override_reason,
                                 )
+
                                 st.success("✅ Override applied. Re-ranking...")
-                                # Re-rank after override
+
                                 st.session_state.ranked_candidates = rank_candidates(
                                     st.session_state.ranked_candidates
                                 )
+
                                 st.rerun()
 
     # ── Download Reports ──────────────────────────────────────────────────────
