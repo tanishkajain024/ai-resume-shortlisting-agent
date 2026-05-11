@@ -414,23 +414,33 @@ if st.session_state.analysis_done and st.session_state.ranked_candidates:
                     f"⚠️ Override applied on {log['timestamp'][:10]}: {log['reason']}"
                 )
 
-            with st.form(key=f"override_form_{candidate.get('filename', name)}"):
-                ov_cols = st.columns(5)
-                overrides = {}
-                dim_keys = [d[0] for d in dim_names]
-                for col, dim in zip(ov_cols, dim_keys):
-                    current = scores.get(dim, 0)
-                    short = dim.replace("_", " ").title().split(" ")[0]
-                    new_val = col.number_input(
-                        short,
-                        min_value=0,
-                        max_value=10,
-                        value=current,
-                        step=1,
-                        key=f"{dim}_{name}",
-                    )
-                    if new_val != current:
-                        overrides[dim] = new_val
+           with st.form(
+    key=f"override_form_{candidate.get('rank')}_{candidate.get('filename', name)}"
+):
+    ov_cols = st.columns(5)
+    overrides = {}
+    dim_keys = [d[0] for d in dim_names]
+
+    for idx, (col, dim) in enumerate(zip(ov_cols, dim_keys)):
+        current = scores.get(dim, 0)
+        short = dim.replace("_", " ").title().split(" ")[0]
+
+        unique_key = (
+            f"{dim}_{candidate.get('rank')}_"
+            f"{candidate.get('filename', name)}_{idx}"
+        )
+
+        new_val = col.number_input(
+            short,
+            min_value=0,
+            max_value=10,
+            value=current,
+            step=1,
+            key=unique_key,
+        )
+
+        if new_val != current:
+            overrides[dim] = new_val
 
                 override_reason = st.text_input(
                     "Reason for override (required if changing scores):",
