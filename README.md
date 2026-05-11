@@ -5,6 +5,14 @@
 
 An AI-powered HR screening assistant that ingests a Job Description and multiple candidate resumes, scores each candidate using a transparent 5-dimension rubric powered by Google Gemini, and produces a ranked shortlist report.
 
+## 📸 Screenshots
+
+### Home Page
+![Home](screenshots/home.png)
+
+### Results Dashboard
+![Results](screenshots/results.png)
+
 ---
 
 # 📸 Demo
