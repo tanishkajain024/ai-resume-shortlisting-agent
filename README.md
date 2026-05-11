@@ -28,6 +28,12 @@ https://drive.google.com/file/d/1tFAdUUz5MEJjnEl8nAUkyK5SfR-6OpN2/view?usp=drive
 
 ---
 
+## 📑 Presentation Deck
+
+https://drive.google.com/file/d/1fx3l24aNNuhB63EVzs47nOeQTxBwSkEA/view?usp=sharing
+
+---
+
 ## 📸 Demo
 
 Upload Job Description → Upload resumes → Click Analyze → Get ranked shortlist with scores, justifications, and downloadable HTML/JSON reports.
