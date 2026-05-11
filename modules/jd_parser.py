@@ -68,12 +68,12 @@ def parse_jd(jd_text: str) -> dict:
 
     raw_text = ""
     try:
-        model = genai.GenerativeModel("gemini-1.5-flash")
+        model = genai.GenerativeModel("gemini-2.0-flash")
 
         response = model.generate_content(
             prompt,
             generation_config=genai.types.GenerationConfig(
-                temperature=1,          # gemini-2.5-flash requires temperature=1
+                temperature=1,          # gemini-2.0-flash requires temperature=1
                 max_output_tokens=2000,
             ),
         )
