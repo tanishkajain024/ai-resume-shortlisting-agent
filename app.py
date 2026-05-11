@@ -175,22 +175,42 @@ with col1:
 
 with col2:
     st.subheader("📄 Step 2 — Upload Resumes")
+
     resume_files = st.file_uploader(
         "Upload candidate resumes (PDF or DOCX):",
         type=["pdf", "docx"],
         accept_multiple_files=True,
         key="resume_upload",
+        help="You can upload multiple resumes together."
     )
 
-    if resume_files:
-        st.markdown(f"**{len(resume_files)} resume(s) ready:**")
-        for f in resume_files:
-            # Validate each file
+    if resume_files and len(resume_files) > 0:
+
+        st.success(f"✅ {len(resume_files)} resume(s) uploaded successfully!")
+
+        st.markdown("### 📂 Uploaded Resume Files")
+
+        for idx, f in enumerate(resume_files, start=1):
+
             valid, msg = validate_file(f)
+
             if valid:
-                st.markdown(f"- ✅ {f.name} ({f.size // 1024} KB)")
+
+                st.markdown(
+                    f"""
+                    ✅ **Resume {idx}**
+                    - **Filename:** `{f.name}`
+                    - **File Size:** `{round(f.size / 1024, 2)} KB`
+                    """
+                )
+
             else:
-                st.markdown(f"- ❌ {f.name} — {msg}")
+
+                st.error(f"❌ {f.name} — {msg}")
+
+    else:
+
+        st.info("📄 Upload one or more resumes to start analysis.")
 
     st.markdown("---")
     st.markdown("**No resumes to upload? Use sample data:**")
