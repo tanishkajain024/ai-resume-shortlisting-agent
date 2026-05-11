@@ -323,7 +323,7 @@ For automated testing, paste the sample resume text directly as a `.txt` file
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Developed By
 
-Student Internship Project — AI Enablement Program  
-Task 1: HR Resume & LinkedIn Shortlisting Agent
+Tanishka Jain  
+Computer Science Engineering Student
