@@ -275,6 +275,7 @@ AI/ML & NLP Enthusiast
 
 ---
 
+
 # 📄 License
 
-This project is developed for educational and internship evaluation purposes.
+This project was developed as part of the AI Enablement Internship Program for educational, learning, and evaluation purposes.
