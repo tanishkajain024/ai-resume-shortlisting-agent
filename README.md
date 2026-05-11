@@ -15,6 +15,13 @@ An AI-powered HR screening assistant that ingests a Job Description and multiple
 
 ---
 
+## 📊 Sample Output
+
+Sample HTML Report:  
+https://drive.google.com/file/d/1kPVPU1z_1Ghb86td-AaSKRUX00ZC9M6U/view?usp=sharing
+
+---
+
 ## 📸 Demo
 
 Upload Job Description → Upload resumes → Click Analyze → Get ranked shortlist with scores, justifications, and downloadable HTML/JSON reports.
