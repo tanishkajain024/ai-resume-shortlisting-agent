@@ -23,7 +23,7 @@ Upload Job Description → Upload resumes → Click Analyze → Get ranked short
 https://github.com/tanishkajain024/ai-resume-shortlisting-agent
 
 🔗 Live Streamlit App:
-PASTE_YOUR_STREAMLIT_URL_HERE
+https://tanishkajain024-ai-resume-shortlisting-agent-app-f4omsb.streamlit.app/
 
 ---
 
