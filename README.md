@@ -74,7 +74,7 @@ https://tanishkajain024-ai-resume-shortlisting-agent-app-f4omsb.streamlit.app/
 
 ---
 
-# 📋 Scoring Rubric
+## 📋 Scoring Rubric
 
 | Dimension                  | Weight |
 | -------------------------- | ------ |
@@ -102,7 +102,7 @@ Hire Threshold: **60/100**
 
 ---
 
-# 🤖 Why Gemini 2.0 Flash?
+## 🤖 Why Gemini 2.0 Flash?
 
 * Fast response speed
 * Strong JSON output generation
@@ -148,7 +148,7 @@ Hire Threshold: **60/100**
 
 ---
 
-# 📁 Project Structure
+## 📁 Project Structure
 
 ```text
 ai_resume_agent/
@@ -254,7 +254,7 @@ http://localhost:8501
 
 ---
 
-# 🔮 Future Improvements
+## 🔮 Future Improvements
 
 * LinkedIn profile analysis
 * Embedding similarity search
@@ -265,7 +265,7 @@ http://localhost:8501
 
 ---
 
-# 👨‍💻 Developed By
+## 👨‍💻 Developed By
 
 Tanishka Jain
 
@@ -276,6 +276,6 @@ AI/ML & NLP Enthusiast
 ---
 
 
-# 📄 License
+## 📄 License
 
 This project was developed as part of the AI Enablement Internship Program for educational, learning, and evaluation purposes.
