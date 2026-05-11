@@ -1,6 +1,7 @@
 # 🤖 AI Resume & LinkedIn Shortlisting Agent
 
-AI Enablement Internship — Task 1
+### AI Enablement Internship Project  
+#### Task 1 — HR Resume & LinkedIn Shortlisting Agent
 
 An AI-powered HR screening assistant that ingests a Job Description and multiple candidate resumes, scores each candidate using a transparent 5-dimension rubric powered by Google Gemini, and produces a ranked shortlist report.
 
