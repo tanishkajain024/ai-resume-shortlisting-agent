@@ -15,7 +15,7 @@ An AI-powered HR screening assistant that ingests a Job Description and multiple
 
 ---
 
-# 📸 Demo
+## 📸 Demo
 
 Upload Job Description → Upload resumes → Click Analyze → Get ranked shortlist with scores, justifications, and downloadable HTML/JSON reports.
 
@@ -27,7 +27,7 @@ https://tanishkajain024-ai-resume-shortlisting-agent-app-f4omsb.streamlit.app/
 
 ---
 
-# 🏗️ Architecture
+## 🏗️ Architecture
 
 ```text
 ┌─────────────────────────────────────────────────────┐
@@ -62,7 +62,7 @@ https://tanishkajain024-ai-resume-shortlisting-agent-app-f4omsb.streamlit.app/
 
 ---
 
-# ⚙️ Agent Flow
+## ⚙️ Agent Flow
 
 1. HR uploads Job Description and resumes
 2. Gemini parses structured JD requirements
@@ -88,7 +88,7 @@ Hire Threshold: **60/100**
 
 ---
 
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 | Layer                 | Technology               |
 | --------------------- | ------------------------ |
@@ -112,7 +112,7 @@ Hire Threshold: **60/100**
 
 ---
 
-# 🔐 Security Mitigations
+## 🔐 Security Mitigations
 
 ## Prompt Injection Protection
 
@@ -173,7 +173,7 @@ ai_resume_agent/
 
 ---
 
-# 🚀 Setup Instructions
+## 🚀 Setup Instructions
 
 ## Clone Repository
 
@@ -239,7 +239,7 @@ http://localhost:8501
 
 ---
 
-# 📊 Features Implemented
+## 📊 Features Implemented
 
 ✅ Job Description Parsing
 ✅ Resume Upload & Parsing
@@ -270,6 +270,7 @@ http://localhost:8501
 Tanishka Jain
 
 Computer Science Engineering Student
+
 AI/ML & NLP Enthusiast
 
 ---
