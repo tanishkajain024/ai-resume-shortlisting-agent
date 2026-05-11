@@ -268,6 +268,7 @@ http://localhost:8501
 # 👨‍💻 Developed By
 
 Tanishka Jain
+
 Computer Science Engineering Student
 AI/ML & NLP Enthusiast
 
