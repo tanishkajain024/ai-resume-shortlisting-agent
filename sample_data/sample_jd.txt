@@ -1,0 +1,40 @@
+Job Title: Python Backend Developer
+
+About the Role:
+We are looking for a skilled Python Backend Developer to join our engineering team.
+You will be responsible for building scalable APIs, integrating third-party services,
+and contributing to our core data pipeline infrastructure.
+
+Required Skills:
+- Python (3.8+)
+- REST API development (FastAPI or Django REST Framework)
+- SQL databases (PostgreSQL or MySQL)
+- Git and version control
+- Basic understanding of Docker
+
+Preferred Skills:
+- Experience with AWS or GCP cloud services
+- Redis / Celery for async tasks
+- Unit testing with pytest
+- CI/CD pipelines
+
+Experience Required:
+2-4 years of professional software development experience in Python backend roles.
+
+Education:
+Bachelor's degree in Computer Science, Software Engineering, or a related field.
+Relevant bootcamp graduates with strong portfolios will also be considered.
+
+Certifications (Preferred):
+- AWS Certified Developer
+- Python Institute PCEP or PCAP
+
+Key Responsibilities:
+- Design and build RESTful APIs for mobile and web clients
+- Write clean, tested, and documented code
+- Collaborate with frontend developers and product managers
+- Participate in code reviews and architecture discussions
+- Optimize database queries and API performance
+
+What We Offer:
+Competitive salary, flexible remote work options, learning budget, and a collaborative team culture.

@@ -1,0 +1,31 @@
+# Environment & secrets — NEVER commit these
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Uploaded files (may contain PII)
+uploads/
+*.pdf
+*.docx
+
+# Output reports
+outputs/
+
+# IDE
+.vscode/
+.idea/

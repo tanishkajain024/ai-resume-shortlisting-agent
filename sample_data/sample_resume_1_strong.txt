@@ -1,0 +1,54 @@
+PRIYA SHARMA
+Email: priya.sharma@email.com | Phone: +91 98765 43210
+LinkedIn: linkedin.com/in/priyasharma | GitHub: github.com/priyasharma
+
+SUMMARY
+Experienced Python Backend Developer with 3.5 years of expertise in building scalable
+REST APIs using FastAPI and Django. Strong background in PostgreSQL, Redis, and AWS cloud
+services. Passionate about clean code, test-driven development, and system design.
+
+SKILLS
+Languages: Python, SQL, Bash
+Frameworks: FastAPI, Django REST Framework, Flask
+Databases: PostgreSQL, MySQL, Redis
+Cloud: AWS (EC2, S3, Lambda, RDS), basic GCP
+Tools: Docker, Git, GitHub Actions, pytest, Celery
+Other: REST APIs, Microservices, CI/CD, Agile/Scrum
+
+EXPERIENCE
+
+Senior Backend Developer — TechFlow Pvt. Ltd., Bangalore
+June 2022 – Present (2 years)
+- Architected and built a FastAPI-based microservices platform handling 50K+ daily requests
+- Designed PostgreSQL schemas and wrote optimized queries reducing report load time by 40%
+- Implemented Celery + Redis async task queue for email notifications and data exports
+- Set up GitHub Actions CI/CD pipeline with automated pytest test suite (85% coverage)
+- Mentored 2 junior developers and conducted weekly code reviews
+
+Backend Developer — DataBridge Solutions, Pune
+July 2021 – May 2022 (11 months)
+- Built Django REST Framework APIs for a fintech SaaS product
+- Integrated third-party payment APIs (Razorpay, Stripe)
+- Deployed applications on AWS EC2 with RDS PostgreSQL
+
+EDUCATION
+B.Tech in Computer Science — Pune University, 2021
+CGPA: 8.4 / 10
+
+CERTIFICATIONS
+- AWS Certified Developer – Associate (2023)
+- Python Institute PCAP – Certified Associate in Python Programming (2022)
+
+PROJECTS
+1. Smart Inventory API (FastAPI + PostgreSQL + Redis)
+   - Built a real-time inventory management REST API with JWT auth and Redis caching
+   - 95% test coverage, deployed on AWS with auto-scaling
+   - GitHub: github.com/priyasharma/smart-inventory
+
+2. Open Source: django-audit-trail
+   - Contributed middleware package for Django with 200+ GitHub stars
+   - Used by 15+ production projects
+
+COMMUNICATION
+- Technical blog with 12 published articles on Python performance and API design
+- Speaker at PyCon India 2023 — "FastAPI in Production"

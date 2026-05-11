@@ -1,0 +1,36 @@
+RAHUL VERMA
+rahul.verma@gmail.com | 9876543210
+
+OBJECTIVE
+Looking for a backend developer position where I can apply my Python skills.
+
+SKILLS
+Python, JavaScript, HTML, CSS, MySQL, Git
+
+EXPERIENCE
+
+Junior Software Developer — WebAgency Co., Delhi
+Jan 2023 – Present (1.5 years)
+- Developed Django web applications for 3 client projects
+- Wrote SQL queries for data reporting
+- Fixed bugs and maintained existing codebase
+
+Intern — StartupXYZ, Remote
+June 2022 – Dec 2022 (6 months)
+- Built a Flask REST API for a todo application
+- Learned Git workflow and pull request process
+
+EDUCATION
+B.Sc Computer Science — Delhi University, 2022
+Percentage: 68%
+
+PROJECTS
+1. Todo App (Flask + MySQL)
+   - Simple REST API with CRUD operations
+   - Deployed on Heroku (free tier)
+
+2. College Website (HTML, CSS, PHP)
+   - Static website for college department
+
+CERTIFICATIONS
+None currently. Planning to pursue AWS certification.
