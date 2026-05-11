@@ -22,6 +22,12 @@ https://drive.google.com/file/d/1kPVPU1z_1Ghb86td-AaSKRUX00ZC9M6U/view?usp=shari
 
 ---
 
+## 🎥 Demo Video
+
+https://drive.google.com/file/d/1tFAdUUz5MEJjnEl8nAUkyK5SfR-6OpN2/view?usp=drivesdk
+
+---
+
 ## 📸 Demo
 
 Upload Job Description → Upload resumes → Click Analyze → Get ranked shortlist with scores, justifications, and downloadable HTML/JSON reports.
